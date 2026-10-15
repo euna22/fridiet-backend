@@ -1,0 +1,49 @@
+HELP.md
+**/HELP.md
+
+# Gradle 관련 무시
+/.gradle/
+/build/
+!/gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+/.apt_generated
+/.classpath
+/.factorypath
+/.project
+/.settings
+/.springBeans
+/.sts4-cache
+/bin/
+
+### IntelliJ IDEA ###
+.idea/
+fridiet/.idea/
+*.iws
+*.iml
+fridiet/*.iml
+*.ipr
+fridiet/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+/.vscode/
+
+### 빌드 설정 및 환경 변수 (Secrets) ###
+application.yml
+application-local.yml
+
+# Firebase Service Account Private Key
+/src/main/resources/firebase/*.json
+
+/src/main/resources/static
+/src/main/resources/static/meal-test.html
+/src/main/resources/static/qr-test.html
+.setup/
+.local/
